@@ -23,7 +23,7 @@ function random_element {
 # Default Prompt
 setEmoji () {
   EMOJI="$*"
-  PS1="${YELLOW}\w${GREEN}\$(git_branch)${RESET} ${EMOJI}\n$ ";
+  PS1="${RED}\${pwd}${GREEN}\$(git_branch)${RESET} ${EMOJI}\n$ ";
 }
 
 newRandomEmoji () {
